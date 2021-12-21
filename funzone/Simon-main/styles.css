@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: #fff;
+  height: 100%
+}
+
+html {
+  height: 100%;
+}
+
+#level-title {
+  font-size: 4rem;
+  margin: 1%;
+  color: darkgreen;
+}
+
+.instruction {
+  font-size: 2rem;
+  margin: 1%;
+  color: darkgreen;
+}
+
+.container {
+  display: block;
+  width: 100vw;
+  margin: auto;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#start {
+  background-color: darkgreen;
+  /* Green */
+  border-radius: 50%;
+  color: white;
+  padding: 18px;
+  padding-top: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  margin-bottom: 50px;
+}
+
+.btn {
+  margin: 2vw;
+  display: inline-block;
+  height: 15vw;
+  width: 15vw;
+  border: 1vw solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
