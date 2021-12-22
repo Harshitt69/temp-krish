@@ -169,87 +169,113 @@
     </div>
 
     <!-- Contact Section -->
-    <div id="contact" class="text-center">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Contact Us</h2>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-            </div>
-            <div class="col-md-10 col-md-offset-1 contact-info">
-                <div class="col-md-4">
-                    <h3>Address</h3>
-                    <hr>
-                    <div class="contact-item">
-                        <p>Garh Saloboni, Jhargram,</p>
-                        <p>West Bengal, 721514</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h3>Opening Hours</h3>
-                    <hr>
-                    <div class="contact-item">
-                        <p>OPEN ALL DAY</p>
-                        <p>09:00 AM - 05:00 PM</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h3>Contact Info</h3>
-                    <hr>
-                    <div class="contact-item">
-                        <p>Phone: +8170042456, 7363044474</p>
-                        <p>Email: support@krishgarden.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <h3>Book Venue: Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" id="name" class="form-control" placeholder="First Name" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" id="name" class="form-control" placeholder="Last Name" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="Email" id="email" class="form-control" placeholder="Email" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="Phone" id="phone" class="form-control" placeholder="Whatsapp Number" required="required">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-                        <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="form-group">
-                        <p class="help-block">Book From</p>
-                        <input type="date" id="date" class="form-control" placeholder="Date" required="required">
-                    </div>
-                    <div class="form-group">
-                        <p class="help-block">Book To</p>
-                        <input type="date" name="date" id="date" class="form-control" placeholder="Date" required></textarea>
-                    </div>
-                    <div id="success"></div>
-                    <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-                </form>
-            </div>
-        </div>
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Contact Us</h2>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
     </div>
+    <div class="col-md-10 col-md-offset-1 contact-info">
+      <div class="col-md-4">
+        <h3>Address</h3>
+        <hr>
+        <div class="contact-item">
+          <p>Garh Saloboni, Jhargram,</p>
+          <p>West Bengal, 721514</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Opening Hours</h3>
+        <hr>
+        <div class="contact-item">
+          <p>OPEN ALL DAY</p>
+          <p>09:00 AM - 05:00 PM</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Info</h3>
+        <hr>
+        <div class="contact-item">
+          <p>Phone: +8170042456, 7363044474</p>
+          <p>Email: support@krishgarden.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Book Venue: Send us a Message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="First Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Last Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="Email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="Phone" id="phone" class="form-control" placeholder="Whatsapp Number" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="form-group">
+          <p class="help-block">Book From</p>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="date" name="date" id="date" class="form-control" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="time" id="time" class="form-control" placeholder="time" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+  
+            <!-- <input type="date" id="date" class="form-control" placeholder="Date" required="required">
+            <input type="time" name="time" class="form-control" required="required"></input>
+ -->       </div>
+        <div class="form-group">
+          <p class="help-block">Book To</p>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="date" name="date" id="date" class="form-control" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="time" id="time" class="form-control" placeholder="time" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div></textarea>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118045.36388241705!2d87.02537645530462!3d22.394462783722037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d709225c0597b%3A0x7ce6f3e52c7d626a!2sKrish%20Garden!5e0!3m2!1sen!2sin!4v1639393652742!5m2!1sen!2sin"
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <!-- Footer Section -->
@@ -264,6 +290,9 @@
                         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
+                <a href="#" class="footer-logo">
+        <img src="img/Logo.png" alt="" height="180" style="margin-top: -40px; margin-bottom: -40px";>
+      </a>
                 <p>Managed by Rashmi Group <a href="#" rel="nofollow">&copy; Krish Garden
             2021.</a></p>
             </div>
