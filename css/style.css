@@ -1242,7 +1242,7 @@ img {
     .cards-list {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: row;
-        padding: 5px 100px;
+        padding: 5px 10px;
     }
 }
 
