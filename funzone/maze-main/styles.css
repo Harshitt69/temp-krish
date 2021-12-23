@@ -183,7 +183,7 @@ button#down::before {
 }
 
 #fish_thank {
-    max-width: 100%;
+    max-width: 450px;
     height: auto;
     width: auto\9; /* ie8 */
 }
