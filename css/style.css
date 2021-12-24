@@ -332,7 +332,7 @@ header .intro-text {
 
 #services {
     padding: 50px 0;
-    background: url("../img/01.png");
+    background: #023020;
 }
 
 #services .service-media {
@@ -508,7 +508,7 @@ ol.type li a:hover {
 
 #testimonials .overlay {
     padding: 120px 0;
-    background: url("../img/01.png");
+    background: #023020;
 }
 
 #testimonials h2 {
