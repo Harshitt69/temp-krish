@@ -44,8 +44,8 @@ html {
   text-align: center;
   vertical-align: middle;
   font-family: sans-serif;
-  font-size: 10vw;
-  margin: -6%;
+  font-size: 100px;
+  margin: -10%;
   color: #eb5b34;
 }
 
@@ -53,7 +53,7 @@ html {
   text-align: center;
   vertical-align: middle;
   font-family: sans-serif;
-  font-size: 10vw;
+  font-size: 100px;
   margin: -6%;
   color: #34eb59;
 }
@@ -70,10 +70,17 @@ html {
   vertical-align: middle;
   margin: 1vw;
   display: inline-block;
-  height: 10vw;
-  width: 10vw;
+  height: 120px;
+  width: 120px;
   border: 1vw solid black;
   border-radius: 20%;
+}
+
+@media(max-width: 600px){
+  .btn {
+  width: 100px;
+  height: 100px;
+}
 }
 
 .game-over {

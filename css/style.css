@@ -14,8 +14,9 @@ html {
 h2 {
     margin: 10px 0 20px 0;
     font-weight: initial;
-    font-size: 36px;
-    color: #bd46c9;
+    font-size: 70px;
+    color: #ee3459;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h3,
@@ -341,9 +342,8 @@ header .intro-text {
 
 #services .service-media img {
     position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius: 40px;
+    width: 100px;
+    height: 100px;
 }
 
 #services .service-desc {
@@ -392,11 +392,10 @@ ol.type li {
 }
 
 ol.type li a {
-    color: #555;
-    font-size: 16px;
-    font-weight: 400;
+    color: #47876f;
+    font-size: 18px;
+    font-weight: 350;
     padding: 8px 16px;
-    background: #e6e6e6;
     border: 0;
     border-radius: 4px;
     letter-spacing: 1px;
@@ -1037,9 +1036,10 @@ img {
 
 .section-heading-a {
     text-transform: uppercase;
-    font-size: 80px;
-    color: #bd46c9;
+    font-size: 70px;
+    color: #ee3459;
     padding-top: 30px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .sub-heading-a {

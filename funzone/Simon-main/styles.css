@@ -53,10 +53,10 @@ html {
 }
 
 .btn {
-  margin: 2vw;
+  margin: 1vw;
   display: inline-block;
-  height: 15vw;
-  width: 15vw;
+  height: 130px;
+  width: 130px;
   border: 1vw solid black;
   border-radius: 20%;
 }
