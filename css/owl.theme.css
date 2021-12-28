@@ -24,7 +24,7 @@
 	background: #47876f;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 1;
-	border:  2px solid red;
+	border:  3px solid purple;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */

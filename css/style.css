@@ -1053,7 +1053,7 @@ img {
 }
 
 .sub-heading-a {
-    max-width: 76ch;
+    max-width: 100ch;
     margin: 25px auto 0;
     line-height: 1.8;
     font-size: 18px;
