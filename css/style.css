@@ -1042,12 +1042,23 @@ img {
     font-family: "Times New Roman", Times, serif;
 }
 
+#images{
+    text-align: center;
+}
+.about-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 77%;
+}
+
 .sub-heading-a {
     max-width: 76ch;
     margin: 25px auto 0;
     line-height: 1.8;
     font-size: 18px;
     color: #000;
+    text-align: justify;
 }
 
 .row-container-a {

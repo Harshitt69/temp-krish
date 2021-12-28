@@ -21,7 +21,7 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 100%;
-	background: purple;
+	background: #47876f;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 1;
 	border:  2px solid red;
